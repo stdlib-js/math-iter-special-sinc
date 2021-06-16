@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-special-sinc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create an iterator which computes the normalized cardinal sine for each iterated value.",
   "license": "Apache-2.0",
   "author": {
