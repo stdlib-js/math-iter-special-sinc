@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+iterSinc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sinc@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-special-sinc/tags). For example,
+
+```javascript
 iterSinc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sinc@v0.2.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var iterSinc = require( 'path/to/vendor/umd/math-iter-special-sinc/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sinc@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sinc@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -133,7 +138,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sinc@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sinc@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
